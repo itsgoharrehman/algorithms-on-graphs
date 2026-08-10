@@ -93,3 +93,10 @@ python programming-assignment-5/connecting_points.py < input.txt
 ## 📜 Requirements
 
 - Python `3.x`
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
