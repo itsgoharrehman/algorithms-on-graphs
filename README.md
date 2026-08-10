@@ -21,6 +21,9 @@ algorithms-on-graphs/
 │   ├── bfs.py
 │   └── bipartite.py
 ├── programming-assignment-4/
+│   ├── dijkstra.py
+│   ├── negative_cycle.py
+│   └── shortest_paths.py
 └── programming-assignment-5/
 ```
 
@@ -56,12 +59,22 @@ algorithms-on-graphs/
 
 ---
 
+### 🔹 Programming Assignment 4: Paths in Graphs 2
+
+| File | Description |
+| :--- | :--- |
+| [`dijkstra.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-4/dijkstra.py) | Computes the minimum cost path between two vertices in a graph with non-negative edge weights using Dijkstra's algorithm. |
+| [`negative_cycle.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-4/negative_cycle.py) | Detects whether a directed graph with arbitrary edge weights contains a negative-weight cycle using Bellman-Ford algorithm. |
+| [`shortest_paths.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-4/shortest_paths.py) | Finds shortest paths from a source to all vertices in graphs with negative edges and negative cycles using Bellman-Ford and BFS. |
+
+---
+
 ## 🚀 Usage
 
 Run any script using Python 3 with input supplied via standard input (`stdin`):
 
 ```bash
-python programming-assignment-3/bfs.py < input.txt
+python programming-assignment-4/dijkstra.py < input.txt
 ```
 
 ---
