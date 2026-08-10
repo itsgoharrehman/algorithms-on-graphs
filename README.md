@@ -18,6 +18,8 @@ algorithms-on-graphs/
 │   ├── toposort.py
 │   └── strongly_connected.py
 ├── programming-assignment-3/
+│   ├── bfs.py
+│   └── bipartite.py
 ├── programming-assignment-4/
 └── programming-assignment-5/
 ```
@@ -45,12 +47,21 @@ algorithms-on-graphs/
 
 ---
 
+### 🔹 Programming Assignment 3: Paths in Graphs 1
+
+| File | Description |
+| :--- | :--- |
+| [`bfs.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-3/bfs.py) | Computes the shortest distance between two vertices in an unweighted graph using Breadth-First Search (BFS). |
+| [`bipartite.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-3/bipartite.py) | Checks if a given undirected graph is bipartite (2-colorable) using BFS. |
+
+---
+
 ## 🚀 Usage
 
 Run any script using Python 3 with input supplied via standard input (`stdin`):
 
 ```bash
-python programming-assignment-2/acyclicity.py < input.txt
+python programming-assignment-3/bfs.py < input.txt
 ```
 
 ---
