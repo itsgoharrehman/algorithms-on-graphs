@@ -25,6 +25,8 @@ algorithms-on-graphs/
 │   ├── negative_cycle.py
 │   └── shortest_paths.py
 └── programming-assignment-5/
+    ├── connecting_points.py
+    └── clustering.py
 ```
 
 ---
@@ -69,12 +71,21 @@ algorithms-on-graphs/
 
 ---
 
+### 🔹 Programming Assignment 5: Minimum Spanning Trees
+
+| File | Description |
+| :--- | :--- |
+| [`connecting_points.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-5/connecting_points.py) | Connects points on a 2D plane with minimum total length using Kruskal's Minimum Spanning Tree (MST) algorithm with Disjoint Set Union (DSU). |
+| [`clustering.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-5/clustering.py) | Finds the maximum spacing for clustering $n$ points into $k$ non-empty clusters using Kruskal's algorithm principles. |
+
+---
+
 ## 🚀 Usage
 
 Run any script using Python 3 with input supplied via standard input (`stdin`):
 
 ```bash
-python programming-assignment-4/dijkstra.py < input.txt
+python programming-assignment-5/connecting_points.py < input.txt
 ```
 
 ---
