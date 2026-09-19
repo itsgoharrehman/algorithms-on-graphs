@@ -1,102 +1,37 @@
-# Algorithms on Graphs
+# algorithms-on-graphs
 
-This repository contains solutions to programming assignments for the **Algorithms on Graphs** course (part of the Coursera Data Structures and Algorithms Specialization).
+Algorithmic implementations and course assignments for the "Algorithms on Graphs" course by the University of California San Diego. Focuses on graph traversal, shortest path algorithms, minimum spanning trees, and network flow optimization.
 
-All implementations are written in **Python 3**.
+## Core Graph Algorithms
 
----
+* **Graph Traversal & Connectivity**: Breadth-First Search (BFS), Depth-First Search (DFS), topological sorting, strongly connected components (Kosaraju's algorithm).
+* **Shortest Path Problems**: Dijkstra's algorithm with priority queues, Bellman-Ford algorithm with negative cycle detection.
+* **Minimum Spanning Trees (MST)**: Kruskal's algorithm with Disjoint Sets, Prim's algorithm.
 
-## 📁 Repository Structure
+## Architecture and Stack
 
-```text
-algorithms-on-graphs/
-├── programming-assignment-1/
-│   ├── reachability.py
-│   └── connected_components.py
-├── programming-assignment-2/
-│   ├── acyclicity.py
-│   ├── toposort.py
-│   └── strongly_connected.py
-├── programming-assignment-3/
-│   ├── bfs.py
-│   └── bipartite.py
-├── programming-assignment-4/
-│   ├── dijkstra.py
-│   ├── negative_cycle.py
-│   └── shortest_paths.py
-└── programming-assignment-5/
-    ├── connecting_points.py
-    └── clustering.py
-```
+* **Language**: Python 3.10+
+* **Validation**: Rigorous algorithmic verification suites with time and memory constraints
 
----
+## Getting Started
 
-## 💡 Assignments Overview
+### Prerequisites
+* Python 3.10+
 
-### 🔹 Programming Assignment 1: Graph Decomposition 1
-
-| File | Description |
-| :--- | :--- |
-| [`reachability.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-1/reachability.py) | Determines if a path exists between two vertices $u$ and $v$ in an undirected graph using Depth-First Search (DFS). |
-| [`connected_components.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-1/connected_components.py) | Computes the total number of connected components in an undirected graph using DFS traversal. |
-
----
-
-### 🔹 Programming Assignment 2: Graph Decomposition 2
-
-| File | Description |
-| :--- | :--- |
-| [`acyclicity.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-2/acyclicity.py) | Checks if a given directed graph contains a cycle using DFS recursion stack. |
-| [`toposort.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-2/toposort.py) | Computes a topological ordering of a Directed Acyclic Graph (DAG) using post-order DFS. |
-| [`strongly_connected.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-2/strongly_connected.py) | Computes the number of Strongly Connected Components (SCCs) in a directed graph using Kosaraju's algorithm. |
-
----
-
-### 🔹 Programming Assignment 3: Paths in Graphs 1
-
-| File | Description |
-| :--- | :--- |
-| [`bfs.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-3/bfs.py) | Computes the shortest distance between two vertices in an unweighted graph using Breadth-First Search (BFS). |
-| [`bipartite.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-3/bipartite.py) | Checks if a given undirected graph is bipartite (2-colorable) using BFS. |
-
----
-
-### 🔹 Programming Assignment 4: Paths in Graphs 2
-
-| File | Description |
-| :--- | :--- |
-| [`dijkstra.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-4/dijkstra.py) | Computes the minimum cost path between two vertices in a graph with non-negative edge weights using Dijkstra's algorithm. |
-| [`negative_cycle.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-4/negative_cycle.py) | Detects whether a directed graph with arbitrary edge weights contains a negative-weight cycle using Bellman-Ford algorithm. |
-| [`shortest_paths.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-4/shortest_paths.py) | Finds shortest paths from a source to all vertices in graphs with negative edges and negative cycles using Bellman-Ford and BFS. |
-
----
-
-### 🔹 Programming Assignment 5: Minimum Spanning Trees
-
-| File | Description |
-| :--- | :--- |
-| [`connecting_points.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-5/connecting_points.py) | Connects points on a 2D plane with minimum total length using Kruskal's Minimum Spanning Tree (MST) algorithm with Disjoint Set Union (DSU). |
-| [`clustering.py`](file:///c:/Users/Gohar%20Rehman/Desktop/algorithms-on-graphs/programming-assignment-5/clustering.py) | Finds the maximum spacing for clustering $n$ points into $k$ non-empty clusters using Kruskal's algorithm principles. |
-
----
-
-## 🚀 Usage
-
-Run any script using Python 3 with input supplied via standard input (`stdin`):
-
+### Running Solutions
 ```bash
-python programming-assignment-5/connecting_points.py < input.txt
+git clone https://github.com/itsgoharrehman/algorithms-on-graphs.git
+cd algorithms-on-graphs
+python3 dijkstra.py
 ```
 
----
+## Maintainer
 
-## 📜 Requirements
+* **Gohar Rehman**
+* GitHub: [@itsgoharrehman](https://github.com/itsgoharrehman)
+* Email: `goharrehmanfsd260@gmail.com`
+* Website: [itsgoharrehman.netlify.app](https://itsgoharrehman.netlify.app/)
 
-- Python `3.x`
+## License
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
