@@ -1,0 +1,16 @@
+name: Conceptual Question
+description: Ask a conceptual question regarding graph theory or algorithm complexity.
+title: "[QUESTION]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions regarding graph algorithms or asymptotic complexity. Direct assignment solutions will not be solved for currently enrolled students.
+  - type: textarea
+    id: inquiry
+    attributes:
+      label: Your Question
+      description: Describe the conceptual graph theory question.
+    validations:
+      required: true
