@@ -2,22 +2,23 @@
 
 ## Supported Versions
 
-| Version | Supported |
-|---|---|
-| Default Branch (main) | Yes |
+| Version | Supported | Security Maintenance |
+| :--- | :--- | :--- |
+| Default Branch (main) | Yes | Active maintenance |
 
-## Reporting a Vulnerability
+---
 
-We take the security of this repository and our software seriously. If you believe you have identified a vulnerability, security flaw, or credential exposure, please report it immediately through private disclosure channels.
+## Vulnerability Disclosure Protocol
+
+If you identify a security issue, memory defect, or algorithmic recursion boundary flaw in this repository, please disclose it privately:
 
 * **Security Contact**: goharrehmanfsd260@gmail.com
-* **Maintainer**: Gohar Rehman (@itsgoharrehman)
+* **Repository Maintainer**: Gohar Rehman (@itsgoharrehman)
+* **Response SLA**: Acknowledgment within 48 hours; resolution plan within 5 business days.
 
-### Vulnerability Report Details
-When reporting a vulnerability, please provide:
-* A detailed description of the issue and potential security impact.
-* Exact step-by-step reproduction instructions or a minimal proof-of-concept.
-* Specific affected files, functions, or endpoints.
+---
 
-### Responsible Disclosure
-Please do not open public GitHub issues or public pull requests detailing undisclosed vulnerabilities. Reports will be acknowledged within 48 hours and investigated promptly.
+## Academic Code Boundaries
+
+1. **Coursework Scope**: All graph algorithms in this repository were authored to fulfill academic assignments. They are optimized for theoretical correctness, asymptotic efficiency, and competitive programming constraints.
+2. **Zero Credentials**: This repository contains pure algorithmic logic and strictly holds no secret tokens, credentials, or private keys.
